@@ -3,22 +3,22 @@ import { contactsGreen } from './images'
 
 export const theLightTheme = {
     type: 'light',
-    primary: '#1D9BF0',
-    quaternary: '#EFF3F4',
-    quaternaryLight: '#F7F9F9',
-    secondary: '#ffffff',
-    tertiary: '#0f1419',
-    buttonColor: '#0F1419',
+    primary: '#aac4ff',
+    quaternary: '#dde0f1',
+    quaternaryLight: '#e9edff',
+    secondary: '#f4f6fe',
+    tertiary: '#1b263e',
+    buttonColor: '#a7b0c3',
     contactsimg: contactsGreen
 }
 
 export const theDarkTheme = {
     type: 'dark',
-    primary: '#1D9BF0',
-    quaternary: '#1E2732',
-    quaternaryLight: '#8b98a5',
-    secondary: '#15202B',
-    tertiary: '#EFF3F4',
-    buttonColor: '#8B98A5',
+    primary: '#aac4ff',
+    quaternary: '#121b30',
+    quaternaryLight: '#151e34',
+    secondary: '#1b263e',
+    tertiary: '#f4f6fe',
+    buttonColor: '#252a32',
     contactsimg: contactsGreen
 }

@@ -16,9 +16,6 @@ function Education() {
         <div style={{ backgroundColor: theme.secondary }}>
             <Container className="education" id="resume">
                 <div className="education-body">
-                    <div className="education-image">
-                        <AnimationLottie animationPath={education} />
-                    </div>
                     <div className="education-description">
                         <h1 style={{ color: theme.primary }}>Education</h1>
                         {educationData.map(edu => (

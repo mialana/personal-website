@@ -142,20 +142,19 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        {/* <h6 style={{ color: theme.primary }}>{headerData.title}</h6> */}
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
-                                'Fullstack Developer']}
+                                'CG Student Researcher',
+                                'Fullstack Developer',
+                                'Visual Artist']}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-header"
                             style={{ color: theme.primary, fontSize: '20px' }}
                             loop
                         />
-                        <p>{headerData.desciption}</p>
+                        <p>{headerData.description}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
