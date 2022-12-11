@@ -1,7 +1,5 @@
-export { default as About } from './About/About'
 export { default as BackToTop } from './BackToTop/BackToTop'
 export { default as Contacts } from './Contacts/Contacts'
-export { default as Education } from './Education/Education'
 export { default as Experience } from './Experience/Experience'
 export { default as Landing } from './Landing/Landing'
 export { default as Navbar } from './Navbar/Navbar'
