@@ -17,7 +17,6 @@ function HomePage() {
             <Skills />
             <Projects />
             <Education />
-            <Blog />
             <Contacts />
         </div>
     )
