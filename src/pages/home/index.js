@@ -9,7 +9,6 @@ function HomePage() {
             <Helmet>
                 <title>{headerData.name} - Porfolio</title>
             </Helmet>
-
             <Navbar />
             <Landing />
             <Experience />

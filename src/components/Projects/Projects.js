@@ -1,5 +1,8 @@
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+
+import { HiArrowRight } from "react-icons/hi";
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { projectsData } from '../../data/projectsData';
 
@@ -63,6 +66,17 @@ function Projects() {
                                 />
                             ))}
                         </div>
+{/* 
+                        {projectsData.length > 3 && (
+                            <div className="projects--viewAll">
+                                <Link to="/projects">
+                                    <button className={classes.viewAllBtn}>
+                                        View All
+                                        <HiArrowRight className={classes.viewArr} />
+                                    </button>
+                                </Link>
+                            </div>
+                        )} */}
                     </div>
                 </div>
             )}
