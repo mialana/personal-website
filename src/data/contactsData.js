@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'abusaid7388@gmail.com',
-    phone: '+8801608797655',
-    address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
+    email: 'liu.amy05@gmail.com',
+    phone: '+1 5038306418',
+    address: '4055 Spruce St, Philadelphia, PA, 19104 - Apt. 2A',
 
     sheetAPI: ''
 }

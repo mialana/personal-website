@@ -3,7 +3,7 @@ import { IconButton, Snackbar, SnackbarContent } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useContext, useRef, useState } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
-import { FaFacebook, FaGithub, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoClose } from 'react-icons/io5';
@@ -295,16 +295,16 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
-                                <a
-                                    href={socialsData.twitter}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaTwitter aria-label='Twitter' />
-                                </a>
-                            )}
+                        {socialsData.instagram && (
+                            <a
+                                href={socialsData.instagram}
+                                target='_blank'
+                                rel='noreferrer'
+                                className={classes.socialIcon}
+                            >
+                                <FaInstagram aria-label='Twitter' />
+                            </a>
+                        )}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -326,48 +326,7 @@ function Contacts() {
                                 </a>
                             )}
 
-                            {socialsData.medium && (
-                                <a
-                                    href={socialsData.medium}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaMediumM aria-label='Medium' />
-                                </a>
-                            )}
-
-                            {socialsData.youtube && (
-                                <a
-                                    href={socialsData.youtube}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaYoutube aria-label='YouTube' />
-                                </a>
-                            )}
-
-                            {socialsData.stackOverflow && (
-                                <a
-                                    href={socialsData.stackOverflow}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaStackOverflow aria-label='Stack Overflow' />
-                                </a>
-                            )}
-                            {socialsData.facebook && (
-                                <a
-                                    href={socialsData.facebook}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaFacebook aria-label='facebook' />
-                                </a>
-                            )}
+                            
                         </div>
                     </div>
                 </div>

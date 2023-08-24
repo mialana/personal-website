@@ -1,9 +1,10 @@
 export const socialsData = {
-    github: 'https://github.com/said7388',
+    github: 'https://github.com/mialana',
     facebook: 'https://www.facebook.com/abusaid.riyaz/',
-    linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
+    linkedIn: 'https://www.linkedin.com/in/amy-liu-94919b216/',
     twitter: 'https://twitter.com/said7388',
     medium: 'https://medium.com/@abusaid-bd',
     stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-    mail: 'abusaid7388@gmail.com',
+    mail: 'liu.amy05@gmail.com',
+    instagram: 'https://www.instagram.com/amy._.liu/'
 }

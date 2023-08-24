@@ -9,7 +9,7 @@ import { socialsData } from '../../data/socialsData';
 import './Landing.css';
 
 import {
-    FaFacebook, FaGithub, FaLinkedin, FaTwitter
+    FaGithub, FaLinkedin, FaInstagram
 } from 'react-icons/fa';
 
 function Landing() {
@@ -97,32 +97,20 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaInstagram
                                     className='landing--social twitter-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='Twitter'
                                 />
                             </a>
                         )}
-                        {socialsData.facebook && (
-                            <a
-                                href={socialsData.facebook}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaFacebook
-                                    className='landing--social facebook-icon'
-                                    style={{ color: theme.primary }}
-                                    aria-label='facebook'
-                                />
-                            </a>
-                        )}
+                        
                     </div>
                 </div>
                 <img
@@ -146,6 +134,7 @@ function Landing() {
                         <Typed
                             strings={[
                                 'CG Student Researcher',
+                                'Product Management Intern',
                                 'Fullstack Developer',
                                 'Visual Artist']}
                             typeSpeed={40}

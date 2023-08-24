@@ -13,7 +13,7 @@ function HomePage() {
             <Landing />
             <Experience />
             <Skills />
-            <Projects />
+            {/* <Projects /> */}
             <Artwork />
             <Contacts />
         </div>
