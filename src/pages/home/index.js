@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import { Contacts, Experience, Landing, Navbar, Projects, Skills, Artwork } from '../../components'
+import { Contacts, Experience, Landing, Navbar, Skills, Artwork } from '../../components'
 import { headerData } from '../../data/headerData'
 
 function HomePage() {
