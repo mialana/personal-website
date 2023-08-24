@@ -23,7 +23,7 @@ export const experienceData = [
     {
         id: 4,
         company: 'Penn Center of Digital Visualization',
-        jobtitle: 'Student Technical Director of Virtual Reality',
+        jobtitle: 'Student Technical Director of VR Projects',
         startYear: 'Jan 2022',
         endYear: 'Aug 2022'
     },

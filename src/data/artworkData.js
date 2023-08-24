@@ -11,21 +11,27 @@ import ph10 from "../assets/jpg/photography10.jpg";
 import m1 from "../assets/jpg/modeling1.jpg";
 import m2 from "../assets/jpg/modeling2.jpg";
 import m3 from "../assets/jpg/modeling3.jpg";
+import m4 from "../assets/jpg/modeling4.jpg";
+import m5 from "../assets/jpg/modeling5.jpg";
+import m6 from "../assets/jpg/modeling6.jpg"
 import hd1 from "../assets/jpg/handdrawn1.jpg";
 import hd2 from "../assets/jpg/handdrawn2.jpg";
 import hd3 from "../assets/jpg/handdrawn3.jpg";
 
 export const artworkData = [
   {
+    name: "3D Modeling",
+    id: "mo",
+    images: [m1, m4, m2, m3, m5, m6]
+  },
+  {
     name: "Photography",
+    id: "ph",
     images: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9, ph10],
   },
   {
-    name: "3D Modeling",
-    images: [m1, m2, m3]
-  },
-  {
     name: "Hand-Drawn",
+    id: "hd",
     images: [hd1, hd2, hd3]
   }
 ];
