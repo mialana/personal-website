@@ -6,6 +6,7 @@
   min-height: fit-content;
   overflow-x: hidden;
   padding: 2rem;
+  height: 85vh;
 }
 
 .projects--header {
@@ -23,19 +24,34 @@
 }
 
 .projects--body {
-  width: 100%;
+  width: fit-content;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 3rem;
 }
 
 .projects--bodyContainer {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
-  gap: 4.5rem;
-  width: 100%;
+  gap: 2rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 2rem;
+}
+
+.projects--body::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+.projects--body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.projects--body::-webkit-scrollbar-thumb {
+  background: #aac4ff;
 }
 
 .projects--viewAll {

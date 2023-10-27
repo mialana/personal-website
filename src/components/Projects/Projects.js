@@ -1,8 +1,10 @@
-// import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import React, { useContext } from 'react';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { projectsData } from '../../data/projectsData';
+import { Link } from 'react-router-dom';
+import { HiArrowRight } from 'react-icons/hi';
 
 import './Projects.css';
 import SingleProject from './SingleProject/SingleProject';
@@ -11,35 +13,34 @@ function Projects() {
 
     const { theme } = useContext(ThemeContext);
 
+    const useStyles = makeStyles(() => ({
+        viewAllBtn: {
+            color: theme.secondary,
+            backgroundColor: theme.buttonColor,
+            transition: 'color 0.5s',
+            "&:hover": {
+                color: theme.secondary,
+                backgroundColor: theme.primary,
+            }
+        },
+        viewArr: {
+            color: theme.buttonColor,
+            backgroundColor: theme.secondary,
+            width: '40px',
+            height: '40px',
+            padding: '0.5rem',
+            fontSize: '1.05rem',
+            borderRadius: '50%',
+            cursor: 'pointer',
+            transition: 'background-color 0.5s',
+            "&:hover": {
+                color: theme.buttonColor,
+                backgroundColor: theme.secondary,
+            }
+        },
+    }));
 
-    // const useStyles = makeStyles(() => ({
-    //     viewAllBtn: {
-    //         color: theme.secondary,
-    //         backgroundColor: theme.buttonColor,
-    //         transition: 'color 0.5s',
-    //         "&:hover": {
-    //             color: theme.secondary,
-    //             backgroundColor: theme.primary,
-    //         }
-    //     },
-    //     viewArr: {
-    //         color: theme.buttonColor,
-    //         backgroundColor: theme.secondary,
-    //         width: '40px',
-    //         height: '40px',
-    //         padding: '0.5rem',
-    //         fontSize: '1.05rem',
-    //         borderRadius: '50%',
-    //         cursor: 'pointer',
-    //         transition: 'background-color 0.5s',
-    //         "&:hover": {
-    //             color: theme.buttonColor,
-    //             backgroundColor: theme.secondary,
-    //         }
-    //     },
-    // }));
-
-    // const classes = useStyles();
+    const classes = useStyles();
 
     return (
         <>
@@ -50,7 +51,7 @@ function Projects() {
                     </div>
                     <div className="projects--body">
                         <div className="projects--bodyContainer">
-                            {projectsData.slice(0, 3).map(project => (
+                            {projectsData.map(project => (
                                 <SingleProject
                                     theme={theme}
                                     key={project.id}
@@ -64,7 +65,7 @@ function Projects() {
                                 />
                             ))}
                         </div>
-{/* 
+
                         {projectsData.length > 3 && (
                             <div className="projects--viewAll">
                                 <Link to="/projects">
@@ -74,7 +75,7 @@ function Projects() {
                                     </button>
                                 </Link>
                             </div>
-                        )} */}
+                        )}
                     </div>
                 </div>
             )}

@@ -1,85 +1,63 @@
-import eight from '../assets/svg/projects/eight.svg'
-import five from '../assets/svg/projects/five.svg'
-import four from '../assets/svg/projects/four.svg'
-import one from '../assets/svg/projects/one.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import six from '../assets/svg/projects/six.svg'
-import three from '../assets/svg/projects/three.svg'
-import two from '../assets/svg/projects/two.svg'
+import one from '../assets/jpg/projects1.jpg'
+import two from '../assets/png/projects2.png'
+import three from '../assets/png/projects3.png'
+import four from '../assets/png/projects4.png'
+import five from '../assets/png/projects5.png'
 
 
 export const projectsData = [
     {
-        id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
-    },
-    {
-        id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
-        image: seven
-    },
-    {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
-        image: eight
+        projectName: 'Spotify Composite',
+        projectDesc: "A personal project that utilizes the Spotify Developer's API \
+        to replicate the algorithmic behavior of Spotify Blend.",
+        tags: ['React', 'Typescript'],
+        code: '',
+        demo: ['https://condescending-leakey-e54614.netlify.app/', 
+               'https://www.youtube.com/watch?v=6VYXeNswZCE'],
+        image: three
     },
+
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Penn Courses',
+        projectDesc: "A suite of open-source web applications used by all students at the University of \
+        Pennsylvania.",
+        tags: ['React', 'Typescript', 'Django', 'Redux'],
+        code: '',
+        demo: ['https://penncoursereview.com/',
+                'https://penncourseplan.com/'],
         image: four
     },
     {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'MoBi-LE',
+        projectDesc: "An intelligent robot product designed and developed during a \
+        summer internship.",
+        tags: ['ROS', '*NLP', '*eye-tracking', 'Typescript', 'C++'],
+        code: '',
+        demo: ['https://drive.google.com/file/d/1luBF1vx___x2TJF4QIiMHwsI-r4yo3pY/view?usp=sharing'],
         image: five
     },
     {
-        id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        id: 1,
+        projectName: 'Synthetic Face Database',
+        projectDesc: 'A summer internship project that automatically generates 3D human faces \
+        using a Python algorithm.',
+        tags: ['Python, SideFX Houdini, Autodesk Maya'],
+        code: '',
+        demo: ['https://drive.google.com/file/d/1lQJ6QTFYg9N_OCaRwzmVofKIbQ9CIwmx/view?usp=sharing'],
         image: one
     },
     {
-        id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        id: 2,
+        projectName: 'Mini Minecraft',
+        projectDesc: 'A collaborative project to create an interactive 3D world exploration and \
+        alteration program in the style of the computer game Minecraft.',
+        tags: ['GLSL / OpenGL', 'C++', '*pathfinding', '*ray-tracing'],
+        code: 'https://github.com/mialana/mini-minecraft',
+        demo: ['https://youtu.be/uaXJtYumZVE?si=N0NM2tBLTn9BfpwY&t=159'],
         image: two
-    },
-    {
-        id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
     },
 ]
 
