@@ -3,6 +3,7 @@ import two from '../assets/png/projects2.png'
 import three from '../assets/png/projects3.png'
 import four from '../assets/png/projects4.png'
 import five from '../assets/png/projects5.png'
+import six from '../assets/png/projects6.png'
 
 
 export const projectsData = [
@@ -58,6 +59,16 @@ export const projectsData = [
         code: 'https://github.com/mialana/mini-minecraft',
         demo: ['https://youtu.be/uaXJtYumZVE?si=N0NM2tBLTn9BfpwY&t=159'],
         image: two
+    },
+    {
+        id: 6,
+        projectName: 'Medieval Church Reconstruction',
+        projectDesc: 'A year long research project to reconstruct the appearance of a Serbian church \
+        into how it would look in Medieval times. VR version featured in Penn Museum.',
+        tags: ['Unity', 'Autodesk Maya', 'Adobe Photoshop'],
+        code: '',
+        demo: ['https://drive.google.com/file/d/1eVAceeSEuapxgJfzFUS-TSVwveZuQRAG/view'],
+        image: six
     },
 ]
 
