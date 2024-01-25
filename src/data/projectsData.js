@@ -4,9 +4,20 @@ import three from '../assets/png/projects3.png'
 import four from '../assets/png/projects4.png'
 import five from '../assets/png/projects5.png'
 import six from '../assets/png/projects6.png'
+import seven from '../assets/png/projects7.png'
 
 
 export const projectsData = [
+    {
+        id: 7,
+        projectName: "Maya Rubik's Cube Plug-in",
+        projectDesc: "An Autodesk Maya plug-in that, given a scrambled rubik's cube, \
+        creates a full animation of the cube geometry being solved step-by-step.",
+        tags: ['Autodesk Maya', 'Python', 'Procedural Graphics'],
+        code: 'https://github.com/mialana/final-project',
+        demo: ['https://www.youtube.com/watch?v=ClZvq8PXw0g'],
+        image: seven
+    },
     {
         id: 3,
         projectName: 'Spotify Composite',
