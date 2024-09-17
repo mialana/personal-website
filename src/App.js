@@ -15,8 +15,8 @@ function App() {
       <Router>
         <ScrollToTop />
         <Switch>
-          <Route path="/personal-website" exact component={HomePage} />
-          <Route path="/personal-website/projects/" exact component={ProjectPage} />
+          <Route path="/" exact component={HomePage} />
+          <Route path="/projects/" exact component={ProjectPage} />
           <Redirect to="/" />
         </Switch>
       </Router>
